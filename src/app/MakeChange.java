@@ -20,9 +20,11 @@ public class MakeChange {
         // Check if the customer provided too little money
         if (change < 0) {
             System.err.println("Not enough money paid.");
-        } else if (change == 0) {
+        } 
+        else if (change == 0) {
             System.out.println("Exact amount provided. No change is needed.");
-        } else {
+        } 
+        else {
             System.out.println("Change: $" + change);
             int num;
             num = (int) (change / 20);
